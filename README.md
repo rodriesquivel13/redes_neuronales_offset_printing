@@ -86,7 +86,7 @@ gramaje, opacidad (bajo=1, medio=2, alto=3), desgarre, obsorcion de tinta (bajo=
 
 5.Ajuste del modelo:
 
-* Se utiliza el método ```fit()``` para entrenar el modelo con las características (caracteristicas) y las etiquetas (etiquetas) de los sustratos.
+* Se utiliza el método ```fit()``` para entrenar el modelo con las características ```caracteristicas``` y las etiquetas ```etiquetas``` de los sustratos.
 * Durante el entrenamiento, se realizan operaciones matemáticas, como multiplicación de matrices, cálculo de funciones de activación y actualización de pesos, para minimizar la pérdida y mejorar la precisión del modelo.
 
 6.Predicción de un nuevo sustrato:
