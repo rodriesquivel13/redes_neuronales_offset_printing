@@ -189,4 +189,4 @@ prediccion = model.predict(nuevo_sustrato)
 if prediccion[0][0] >= 0.5:
     print("CANDIDATO A IMPRIMIRSE EN OFFSET")
 else:
-    print("NO ES CANDIDATO A IMPRIMIRSE EN OFFSET")```
+    print("NO ES CANDIDATO A IMPRIMIRSE EN OFFSET")
