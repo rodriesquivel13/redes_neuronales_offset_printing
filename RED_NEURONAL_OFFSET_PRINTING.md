@@ -33,4 +33,21 @@ En la industria de la impresión offset, las redes neuronales artificiales se ha
 7. Ajuste de hiperparámetros: Se pueden realizar ajustes en los hiperparámetros de la red neuronal, como la tasa de aprendizaje, el número de capas ocultas o el número de neuronas, para mejorar el rendimiento.
 8. Implementación y despliegue: Una vez entrenada y probada la red neuronal, se puede implementar en una aplicación o sistema para su uso en la resolución de problemas o toma de decisiones.
 
+Obervese el siguiente diagrama:
+
 ![Diagrama de una red neuronal](diagrama.pdf)
+
+## El problema de escoger el metodo de impresión correcto para cada sustrato.
+
+En mi experiencia en la industria de la impresión, la elección del tipo de papel adecuado es crucial para obtener resultados de alta calidad. Sin embargo, los clientes a menudo se enfrentan al desafío de seleccionar el sustrato correcto para sus proyectos, especialmente cuando no están familiarizados con los diferentes tipos de papel disponibles en el mercado. En este contexto, el uso de redes neuronales puede brindar una solución efectiva al problema de selección de tipos de papel. Estas redes pueden aprender a partir de datos históricos y características del proyecto para realizar recomendaciones precisas y personalizadas a los clientes.
+
+La elección incorrecta del tipo de papel puede tener un impacto significativo en el resultado final de un proyecto de impresión. Un sustrato inadecuado puede afectar la calidad de la impresión, la legibilidad de los textos, la durabilidad del producto y la experiencia del cliente. Además, la variedad de tipos de papel disponibles en el mercado puede resultar abrumadora para los clientes que no tienen conocimientos especializados en la materia. Por lo tanto, es esencial contar con un sistema inteligente que pueda ayudar a los clientes a seleccionar el tipo de papel más apropiado para sus necesidades específicas.
+
+El problema de selección de tipos de papel se presenta cuando un cliente necesita imprimir un proyecto, pero desconoce qué tipo de sustrato sería el más adecuado. El cliente puede tener información sobre las propiedades deseadas del papel, como el gramaje, la opacidad, la textura y la resistencia al desgarro. Sin embargo, debido a la falta de conocimiento sobre los diferentes tipos de papel disponibles en el mercado y cómo se relacionan estas propiedades con cada uno, tomar una decisión informada puede resultar complicado.
+
+En este escenario, se propone utilizar redes neuronales para ayudar al cliente en la selección del tipo de papel. La idea es entrenar una red neuronal utilizando datos históricos de proyectos similares, junto con las propiedades del papel utilizado en cada caso. La red neuronal aprenderá los patrones y relaciones entre las características del proyecto y los tipos de papel, lo que permitirá realizar recomendaciones precisas en función de las necesidades y preferencias del cliente.
+
+La solución propuesta proporcionará al cliente una herramienta inteligente que, al ingresar las características del proyecto, generará una recomendación de tipo de papel. Esto ahorrará tiempo y esfuerzo al cliente al eliminar la necesidad de investigar manualmente las numerosas opciones disponibles en el mercado. Además, al tener en cuenta las propiedades deseadas del papel, la red neuronal podrá brindar recomendaciones personalizadas que se ajusten a las necesidades específicas de cada proyecto.
+
+En resumen, la utilización de redes neuronales en el problema de selección de tipos de papel ofrece la posibilidad de mejorar la toma de decisiones de los clientes, proporcionando recomendaciones precisas y personalizadas. Este enfoque inteligente no solo simplificará el proceso de selección, sino que también garantizará la calidad y satisfacción en los proyectos de impresión.
+
