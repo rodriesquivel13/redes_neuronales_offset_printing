@@ -1,5 +1,6 @@
 # Redes Neuronales
 *Por: Rodrigo Esquivel Castillo*
+
 **MAESTRÍA EN CIENCIA DE DATOS**
 
 ## Historia y contexto de las redes neuronales
