@@ -1,0 +1,38 @@
+Material,Gramaje,Resistencia al agua,Resistencia al desgarro,Opacidad,Brillo,Composición,Impresión
+Papel bond,80,3,2,2,7,Pulpa de madera,1
+Papel offset,120,2,3,3,7.5,Pulpa de madera,1
+Papel reciclado,100,2,2,2,7.2,Fibras recicladas,1
+Papel estucado,150,3,3,3,7.8,Pulpa de madera,1
+Papel fotográfico,250,3,1,3,8,Pulpa de madera,1
+Papel autocopiativo,60,2,3,3,7.2,Pulpa de madera,1
+Cartulina,250,3,3,3,7.5,Pulpa de madera,1
+Cartón corrugado,500,3,3,1,7,Pulpa de madera,1
+Vinilo,35,3,2,1,6.8,PVC,0
+Película plástica,30,3,1,3,7.3,Polietileno,0
+Lona,28,3,3,1,6.5,Poliéster,0
+Papel metalizado,100,3,2,2,7.2,Papel metalizado,1
+Papel adhesivo,120,2,3,3,7.5,Pulpa de madera,1
+Papel de transferencia térmica,80,2,1,3,6.7,Pulpa de madera,1
+Papel térmico,60,1,1,3,7,Pulpa de madera,1
+Papel de seda,20,1,1,3,6.5,Pulpa de madera,1
+Papel kraft,80,3,3,2,7.2,Pulpa de madera,1
+Papel de calco,60,3,1,3,7,Pulpa de madera,1
+Papel vegetal,70,3,1,3,6.8,Pulpa de madera,1
+Papel pergamino,90,3,3,1,7.5,Pulpa de madera,1
+Papel de acuarela,200,3,1,3,7,Pulpa de madera,1
+Papel de lienzo,300,3,3,1,7.5,Pulpa de madera,1
+Papel de arroz,70,1,1,3,6.5,Pulpa de arroz,1
+Papel satinado,150,3,3,3,7.8,Pulpa de madera,1
+Papel mate,100,3,3,3,7.2,Pulpa de madera,1
+Papel brillante,120,3,3,3,7.5,Pulpa de madera,1
+Papel de seguridad,80,3,3,3,7,Pulpa de madera,1
+Papel fluorescente,80,3,2,3,7.2,Pulpa de madera,1
+Papel holográfico,100,3,2,3,7.5,Pulpa de madera,1
+Papel magnético,120,3,3,3,7.8,Pulpa de madera,1
+Papel antideslizante,80,3,3,2,7.2,Pulpa de madera,1
+Papel reciclado grueso,50,3,3,1,7,Fibras recicladas,0
+Papel adhesivo mate,32,3,3,3,7.5,Pulpa de madera,0
+Papel sintético,41,3,3,1,7,Polietileno,0
+Papel metalizado mate,42,3,2,2,7.2,Papel metalizado,0
+Papel kraft resistente al agua,63,3,3,1,7.5,Pulpa de madera,0
+Película plástica brillante,37,3,1,3,7,Polietileno,0
