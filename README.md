@@ -34,11 +34,12 @@ En la industria de la impresión offset, las redes neuronales artificiales se ha
 7. Ajuste de hiperparámetros: Se pueden realizar ajustes en los hiperparámetros de la red neuronal, como la tasa de aprendizaje, el número de capas ocultas o el número de neuronas, para mejorar el rendimiento.
 8. Implementación y despliegue: Una vez entrenada y probada la red neuronal, se puede implementar en una aplicación o sistema para su uso en la resolución de problemas o toma de decisiones.
 
-Obervese el siguiente diagrama:
 
-![Diagrama de una red neuronal](diagrama.pdf)
 
-## El problema de escoger el metodo de impresión correcto para cada sustrato.
+[Obervese el siguiente diagrama](diagrama.pdf)
+
+
+## El problema de escoger el método de impresión correcto para cada sustrato.
 
 En mi experiencia en la industria de la impresión, la elección del tipo de papel adecuado es crucial para obtener resultados de alta calidad. Sin embargo, los clientes a menudo se enfrentan al desafío de seleccionar el sustrato correcto para sus proyectos, especialmente cuando no están familiarizados con los diferentes tipos de papel disponibles en el mercado. En este contexto, el uso de redes neuronales puede brindar una solución efectiva al problema de selección de tipos de papel. Estas redes pueden aprender a partir de datos históricos y características del proyecto para realizar recomendaciones precisas y personalizadas a los clientes.
 
