@@ -61,42 +61,42 @@ Tenemos un conjunto de 37 sustratos almacenados en el archivo ```datos_sustratos
 gramaje, opacidad (bajo=1, medio=2, alto=3), desgarre, obsorcion de tinta (bajo=1, medio=2, alto=3), pH, composicion del papel, metodo que se imprime el papel (1 = Offset, 0 = flexografia). La descripción matemática que podemos dar del algorito, esto sin entrar en mucho técnisimo matemático, es la siguiente: 
 
 
-1.Lectura de datos y manipulación de matrices:
+1. Lectura de datos y manipulación de matrices:
 
 * Lee los datos de un archivo CSV y los almacena en una lista llamada datos_sustratos.
 * Convierte la lista de datos en un array NumPy llamado datos_sustratos, lo que implica representar los datos como una matriz multidimensional.
 * Utiliza la función ```np.delete()``` para eliminar columnas específicas de la matriz, en este caso, se eliminan las columnas 0 y 6 que corresponden al nombre del papel y a la composición del papel.
 * La matriz resultante se guarda en la variable sustratos_numero.
 
-2.Separación de características y etiquetas:
+2. Separación de características y etiquetas:
 
 * Se utiliza la indexación de matrices de ```NumPy``` para separar las columnas correspondientes a las características y las etiquetas de los sustratos.
 * La matriz de características se guarda en la variable caracteristicas, mientras que las etiquetas se almacenan en la variable etiquetas.
 
-3.Creación del modelo de red neuronal:
+3. Creación del modelo de red neuronal:
 
 * Se crea una instancia del modelo secuencial ```Sequential()``` de Keras.
 * Se agregan capas densamente conectadas ```Dense()``` al modelo utilizando la función de activación ReLU (activation='relu') en la capa de entrada y la función de activación sigmoide ```activation='sigmoid'``` en la capa de salida.
 * Las capas densas se pueden representar como matrices de pesos y vectores de sesgos, y la función de activación realiza operaciones matemáticas en estas matrices y vectores.
 
-4.Compilación del modelo:
+4. Compilación del modelo:
 
 * Se utiliza el método ```compile()``` para configurar el modelo con una función de pérdida de entropía cruzada binaria ```loss='binary_crossentropy'```, un optimizador de descenso de gradiente estocástico ```optimizer='adam'```, y una métrica de exactitud ```metrics=['accuracy']```.
 * La función de pérdida y el optimizador están basados en cálculos matemáticos y derivadas parciales para minimizar la pérdida y ajustar los pesos del modelo.
 
-5.Ajuste del modelo:
+5. Ajuste del modelo:
 
 * Se utiliza el método ```fit()``` para entrenar el modelo con las características ```caracteristicas``` y las etiquetas ```etiquetas``` de los sustratos.
 * Durante el entrenamiento, se realizan operaciones matemáticas, como multiplicación de matrices, cálculo de funciones de activación y actualización de pesos, para minimizar la pérdida y mejorar la precisión del modelo.
 
-6.Predicción de un nuevo sustrato:
+6. Predicción de un nuevo sustrato:
 
 * Se solicita al usuario que ingrese los datos de un nuevo sustrato, como el gramaje, la opacidad, la resistencia al desgarre, la absorción de tinta y el pH.
 * Se realiza una serie de transformaciones matemáticas para convertir las categorías de opacidad, resistencia y absorción en valores numéricos adecuados para la predicción.
 * Los datos del nuevo sustrato se organizan en una matriz NumPy llamada ```nuevo_sustrato```.
 * Se utiliza el método ```mpredict()``` del modelo para realizar una predicción basada en los datos del nuevo sustrato, lo que implica realizar cálculos matemáticos en las matrices de pesos y sesgos del modelo.
 
-7.Resultado de la predicción:
+7. Resultado de la predicción:
 
 * Se compara el valor de la predicción con un umbral $(0.5)$ para determinar si el sustrato es un "CANDIDATO A IMPRIMIRSE EN OFFSET" o no.
 * La decisión se basa en una operación de comparación matemática ```prediccion[0][0] >= 0.5``` para determinar si el valor predicho es mayor o igual al umbral.
